@@ -192,7 +192,7 @@ export const relationshipData = {
     salutation: "Hey Tisha,",
     paragraphs: [
       "I'm not some poet or super smooth guy with words(hehe), but I really wanted to build something special for you to show how much you mean to me.",
-      "Looking back at everything—from me nervously coming over to your house for the first time, to our dorky outings in LJ, all those late-night video call screenshots, and you looking so gorgeous at the freshers party... every single moment with you is my favorite memory.",
+      "Looking back at everything, from me nervously coming over to your house for the first time, to our outings in LJ, all those late-night video call screenshots, and you looking so gorgeous at the freshers party... every single moment with you is my favorite memory.",
       "You're honestly the sweetest, most innocent person I know, and having you as my girlfriend makes me feel like the luckiest guy alive. Even when we're just talking about nothing, being with you feels like home.",
       "I love you so much Tisha. Happy Girlfriend Day 💕"
     ],
