@@ -1,7 +1,7 @@
 export const relationshipData = {
   girlfriendName: "Tisha",
   boyfriendName: "Riaan",
-  relationshipStartDate: "2024-02-14T00:00:00",
+  relationshipStartDate: "2025-06-20T00:00:00",
   
   bgMusic: {
     title: "Perfect - Ed Sheeran",
