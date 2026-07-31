@@ -5,7 +5,7 @@ export const relationshipData = {
   
   bgMusic: {
     title: "Perfect - Ed Sheeran",
-    audioUrl: "/assets/perfect.mp3",
+    audioUrl: "./assets/perfect.mp3",
     fallbackUrl: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-wedding-piano-116035.mp3"
   },
 
@@ -19,7 +19,7 @@ export const relationshipData = {
       description: "Ngl I was so nervous walking into your house for the first time... my heart was racing and I kept overthinking everything. But the moment I saw you smile, all the nervousness just melted away.",
       tag: "Beginning",
       icon: "Sparkles",
-      photo: "/assets/timeline_1.jpg"
+      photo: "./assets/timeline_1.jpg"
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ export const relationshipData = {
       description: "Our very first hangout in LJ! We walked around, talked endlessly about random stuff, and I remember thinking 'yupp, I never want this day to end'.",
       tag: "Memorable",
       icon: "Heart",
-      photo: "/assets/timeline_2.jpg"
+      photo: "./assets/timeline_2.jpg"
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export const relationshipData = {
       description: "Our random 2 AM video calls where we miss each other like crazy. Taking the goofiest screenshots of your cute sleepy face when you pretend you aren't tired!",
       tag: "Sweet",
       icon: "MapPin",
-      photo: "/assets/timeline_3.jpg"
+      photo: "./assets/timeline_3.jpg"
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ export const relationshipData = {
       description: "Look at us now! Celebrating Girlfriend Day together. I wouldn't trade you or our memories for anything in the world.",
       tag: "Celebration",
       icon: "Gift",
-      photo: "/assets/timeline_4.jpg"
+      photo: "./assets/timeline_4.jpg"
     }
   ],
 
@@ -55,7 +55,7 @@ export const relationshipData = {
       id: 1,
       title: "Best Gift Ever",
       caption: "Out of everything in the world, having you in my life is the greatest flex.",
-      image: "/assets/polaroid_1.jpg",
+      image: "./assets/polaroid_1.jpg",
       date: "Favorite Moment",
       tags: ["Favorite", "Gift"]
     },
@@ -63,7 +63,7 @@ export const relationshipData = {
       id: 2,
       title: "Our First Trend Together",
       caption: "We were laughing so hard trying to get this right!",
-      image: "/assets/polaroid_2.jpg",
+      image: "./assets/polaroid_2.jpg",
       date: "Fun Times",
       tags: ["Trend", "Love"]
     },
@@ -71,7 +71,7 @@ export const relationshipData = {
       id: 3,
       title: "Freshers Party",
       caption: "You looked so insanely pretty here... I literally couldn't take my eyes off you all night.",
-      image: "/assets/polaroid_3.jpg",
+      image: "./assets/polaroid_3.jpg",
       date: "Party Night",
       tags: ["DressedUp", "Special"]
     },
@@ -79,7 +79,7 @@ export const relationshipData = {
       id: 4,
       title: "The Most Innocent Girl",
       caption: "You're genuinely the sweetest, most innocent soul I've ever met.",
-      image: "/assets/polaroid_4.jpg",
+      image: "./assets/polaroid_4.jpg",
       date: "Pure Joy",
       tags: ["Cute", "Pure"]
     }
