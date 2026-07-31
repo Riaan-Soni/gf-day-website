@@ -85,7 +85,7 @@ export const relationshipData = {
     }
   ],
 
-  reasons = [
+  reasons : [
   "The way your eyes hold a whole conversation before you even speak",
   "How you came to me first with your joy, even after a rough day",
   "The softness in your voice when you're about to fall asleep",
