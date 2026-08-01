@@ -93,7 +93,7 @@ export default function HomePage({ setActiveTab }) {
         </div>
 
         <p style={{ marginTop: '16px', fontSize: '0.95rem', color: '#636e72', fontStyle: 'italic' }}>
-          ...and every single second has been better than the last! ✨
+          ...and every single second has been better than the last! 🥹
         </p>
       </section>
 
