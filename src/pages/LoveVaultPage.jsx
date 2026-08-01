@@ -62,7 +62,7 @@ export default function LoveVaultPage() {
 
         <button className="btn-primary" onClick={drawNewReason}>
           <RefreshCw size={18} />
-          <span>Draw Another Capsule 💕</span>
+          <span>Draw Another Capsule</span>
         </button>
       </section>
 
@@ -75,7 +75,7 @@ export default function LoveVaultPage() {
             </div>
 
             <h2 style={{ fontSize: '1.6rem', fontWeight: 800, marginTop: '8px' }}>
-              {isLetterOpen ? 'A Note From Riaan To Tisha 💖' : 'Tap Seal to Open Riaan\'s Note 💌'}
+              {isLetterOpen ? 'A Note From Riaan To Tisha' : 'Tap Seal to Open Riaan\'s Note 💌'}
             </h2>
             <p style={{ color: '#636e72', fontSize: '0.9rem', marginTop: '4px' }}>
               {relationshipData.loveLetter.date}
@@ -100,7 +100,7 @@ export default function LoveVaultPage() {
                 </div>
 
                 <div className="handwritten-ps">
-                  P.S. Sorry if my handwriting is messy haha, you know how I am! But I meant every single word. 🥰
+                  P.S. Sorry if my handwriting is messy hehe, you know how I am! But I meant every single word.
                 </div>
               </div>
             )}
