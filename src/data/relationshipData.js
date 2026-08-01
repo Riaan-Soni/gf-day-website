@@ -188,7 +188,7 @@ export const relationshipData = {
 
   loveLetter: {
     title: "A Real Note From My Heart",
-    date: "Late Night, Girlfriend Day",
+    date: "Happy Girlfriend Day",
     salutation: "Hey Tisha,",
     paragraphs: [
       "I'm not some poet or super smooth guy with words(hehe), but I really wanted to build something special for you to show how much you mean to me.",
