@@ -262,7 +262,7 @@ export const relationshipData = {
       options: [
         "My day instantly gets 100x better",
         "I save it right away to my favorites",
-        "I end up smiling like a dork at my phone",
+        "I end up grinning ear to ear at my phone",
         "All of the above!"
       ],
       correct: 3,
