@@ -7,7 +7,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
     { id: 'story', label: 'Our Story', icon: BookOpen },
     { id: 'gallery', label: 'Gallery', icon: Image },
     { id: 'vault', label: 'Love Vault', icon: Gift },
-    { id: 'vacation', label: 'Vacation'},
+    { id: 'vacation', label: 'Vacation', icon: Plane },
     { id: 'quiz', label: 'Quiz & Secret', icon: HelpCircle }
   ];
 
