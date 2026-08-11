@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import OurStoryPage from './pages/OurStoryPage';
 import GalleryPage from './pages/GalleryPage';
 import LoveVaultPage from './pages/LoveVaultPage';
+import VacationPage from './pages/VacationPage';
 import QuizPage from './pages/QuizPage';
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           {activeTab === 'gallery' && <GalleryPage />}
           {activeTab === 'vault' && <LoveVaultPage />}
           {activeTab === 'quiz' && <QuizPage />}
+          {activeTab === 'vacation' && <VacationPage />}
         </main>
 
         <footer style={{ marginTop: '60px', textAlign: 'center', color: '#888', fontSize: '0.9rem' }}>

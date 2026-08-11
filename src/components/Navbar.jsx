@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, BookOpen, Image, Gift, HelpCircle } from 'lucide-react';
+import { Heart, BookOpen, Image, Gift, HelpCircle, Plane } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab }) {
   const navItems = [
@@ -7,6 +7,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
     { id: 'story', label: 'Our Story', icon: BookOpen },
     { id: 'gallery', label: 'Gallery', icon: Image },
     { id: 'vault', label: 'Love Vault', icon: Gift },
+    { id: 'vacation', label: 'Vacation', icon: Plane },
     { id: 'quiz', label: 'Quiz & Secret', icon: HelpCircle }
   ];
 
