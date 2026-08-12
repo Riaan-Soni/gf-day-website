@@ -28,7 +28,7 @@ export default function VacationPage() {
           Our <span className="script-font" style={{ fontSize: '3rem' }}>Vacation</span> ✈️
         </h1>
         <p style={{ color: '#636e72', fontSize: '1.1rem' }}>
-          Memories from our time away together...
+          Something to make this vacation worthwhile for us
         </p>
       </div>
 
