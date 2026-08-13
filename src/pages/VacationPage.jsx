@@ -11,6 +11,30 @@ const vacationData = {
     title: "Day 2",
     image: "assets/day2.jpg",
     caption: "hey this reminded me of us. now before u ask or say anything ik what ur thinking. \"riaan tf u mean by this i dont get shit\" and tbh ur not wrong its normal. but heres what i think. both are same and around each other and showing that were around each other, together. and the fact that theyre the same bike just diff manifacturing year, that just goes to show that we might not be same on the outside but same on the inside, feeling everything deeply and messy, and real. ofc its not beautfiul always but its us"
+  },
+  3: {
+    title: "Day 3",
+    image: "assets/P1.jpg",
+    caption: "", // Enter your short caption here
+    longText: "" // Enter your long paragraph here (or remove this line)
+  },
+  4: {
+    title: "Day 4",
+    image: "assets/P2.jpg",
+    caption: "", // Enter your short caption here
+    longText: "" // Enter your long paragraph here (or remove this line)
+  },
+  5: {
+    title: "Day 5",
+    image: "assets/P3.jpg",
+    caption: "", // Enter your short caption here
+    longText: "" // Enter your long paragraph here (or remove this line)
+  },
+  6: {
+    title: "Day 6",
+    image: "assets/p4.jpg",
+    caption: "", // Enter your short caption here
+    longText: "" // Enter your long paragraph here (or remove this line)
   }
 };
 
