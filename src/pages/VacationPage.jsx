@@ -36,6 +36,8 @@ const vacationData = {
     image: "assets/p4.jpg",
     caption: "my sleepy babyy", 
     longText: "so this was one of the times u slept on vc and istg u looked so cutee. i wanted to come through the screen and hold u until u woke up naturally, no tension no worries, just my baby sleeping w a huge smile on her face and thumb in your mouth"
+  }
+};
 
 export default function VacationPage() {
   const [selectedDay, setSelectedDay] = useState(1);
