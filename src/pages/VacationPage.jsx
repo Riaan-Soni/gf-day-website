@@ -35,6 +35,12 @@ const vacationData = {
     image: "assets/p4.jpg",
     caption: "", // Enter your short caption here
     longText: "" // Enter your long paragraph here (or remove this line)
+  },
+  7: {
+    title: "Day 7",
+    image: "assets/d7.jpg",
+    caption: "", // Enter your short caption here
+    longText: "" // Enter your long paragraph here (or remove this line)
   }
 };
 
