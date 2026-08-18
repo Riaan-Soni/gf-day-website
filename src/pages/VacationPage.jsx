@@ -10,37 +10,39 @@ const vacationData = {
   2: {
     title: "Day 2",
     image: "assets/day2.jpg",
-    caption: "hey this reminded me of us. now before u ask or say anything ik what ur thinking. \"riaan tf u mean by this i dont get shit\" and tbh ur not wrong its normal. but heres what i think. both are same and around each other and showing that were around each other, together. and the fact that theyre the same bike just diff manifacturing year, that just goes to show that we might not be same on the outside but same on the inside, feeling everything deeply and messy, and real. ofc its not beautfiul always but its us"
+    caption: "weird reference but thats us",
+    longText: "hey this reminded me of us. now before u ask or say anything ik what ur thinking. \"riaan tf u mean by this i dont get shit\" and tbh ur not wrong its normal. but heres what i think. both are same and around each other and showing that were around each other, together. and the fact that theyre the same bike just diff manifacturing year, that just goes to show that we might not be same on the outside but same on the inside, feeling everything deeply and messy, and real. ofc its not beautfiul always but its us"
   },
   3: {
     title: "Day 3",
     image: "assets/P1.jpg",
-    caption: "", // Enter your short caption here
-    longText: "" // Enter your long paragraph here (or remove this line)
+    caption: "comfort pro maxxx",
+    longText: "this is just soo nostalgic uk. and tbh, at the time of seeing this, ull find out that im ill rn. so yes as much as i want ur lap, i cant risk infecting u. Just know that ur lap is my max comfort." 
   },
   4: {
     title: "Day 4",
     image: "assets/P2.jpg",
-    caption: "", // Enter your short caption here
-    longText: "" // Enter your long paragraph here (or remove this line)
+    caption: "blue and black", 
+    longText: "the days of us, just sitting, laughing each other u being my baby, aww thats the most beautiful feeling. now ik nowadays stuff hass been hectic but these days, when u go to the out of network part, just take the pillow and imagine me. i want u to know that after everything, we've still a future to build.(also heres what u dont know. u told me u werer gonna wear black so i changed the buttons of my kurta to match ur black saree)" 
   },
   5: {
     title: "Day 5",
     image: "assets/P3.jpg",
-    caption: "", // Enter your short caption here
-    longText: "" // Enter your long paragraph here (or remove this line)
+    caption: "realising you are tired of me but still knowing u r loved",
+    longText: "now tbh idk either why u were making that face but it looks like a woman who has seen the childish side of her man and said \"yeah so i wont be able to take him shopping he'll get the useless stuff first just because i either sent a reel abt it or he is seeing it for the first time\""
   },
   6: {
     title: "Day 6",
     image: "assets/p4.jpg",
-    caption: "", // Enter your short caption here
-    longText: "" // Enter your long paragraph here (or remove this line)
+    caption: "my sleepy babyy", 
+    longText: "so this was one of the times u slept on vc and istg u looked so cutee. i wanted to come through the screen and hold u until u woke up naturally, no tension no worries, just my baby sleeping w a huge smile on her face and thumb in your mouth"
   },
   7: {
     title: "Day 7",
     image: "assets/d7.jpg",
-    caption: "", // Enter your short caption here
-    longText: "" // Enter your long paragraph here (or remove this line)
+    caption: "my parasite attacking at her fav food given by the host", 
+    longText: "so i kinda knew chocolate will have a positive effect but damn this?? my love u were a baby while eating it. and heres the rest of the part i didnt tell u. i was staring at u every last second. like aww thats my babyyyy" 
+
   }
 };
 
