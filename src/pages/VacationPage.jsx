@@ -36,13 +36,15 @@ const vacationData = {
     image: "assets/p4.jpg",
     caption: "my sleepy babyy", 
     longText: "so this was one of the times u slept on vc and istg u looked so cutee. i wanted to come through the screen and hold u until u woke up naturally, no tension no worries, just my baby sleeping w a huge smile on her face and thumb in your mouth"
-  },
-  7: {
+  },  7: {
     title: "Day 7",
     image: "assets/d7.jpg",
     caption: "my parasite attacking at her fav food given by the host", 
     longText: "so i kinda knew chocolate will have a positive effect but damn this?? my love u were a baby while eating it. and heres the rest of the part i didnt tell u. i was staring at u every last second. like aww thats my babyyyy" 
-
+  },
+  8: {
+    title: "Day 8",
+    longText: "" // Type your long text here for Day 8
   }
 };
 
@@ -94,14 +96,16 @@ export default function VacationPage() {
         {/* Right Side: Image and Content */}
         <div style={{ flex: '3 1 600px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
           
-          <div className="polaroid-card" style={{ margin: '0 auto', maxWidth: '500px', width: '100%' }}>
-            <img src={getAssetPath(data.image)} alt={data.title} className="polaroid-img" style={{ height: 'auto', maxHeight: '400px' }} />
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <h3 className="polaroid-title">{data.title}</h3>
+          {data.image && (
+            <div className="polaroid-card" style={{ margin: '0 auto', maxWidth: '500px', width: '100%' }}>
+              <img src={getAssetPath(data.image)} alt={data.title} className="polaroid-img" style={{ height: 'auto', maxHeight: '400px' }} />
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <h3 className="polaroid-title">{data.title}</h3>
+              </div>
+              {/* Short Caption inside polaroid */}
+              {data.caption && <p className="polaroid-caption" style={{ fontSize: '1.4rem' }}>"{data.caption}"</p>}
             </div>
-            {/* Short Caption inside polaroid */}
-            {data.caption && <p className="polaroid-caption" style={{ fontSize: '1.4rem' }}>"{data.caption}"</p>}
-          </div>
+          )}
 
           {/* Long Text Below Image (if any) */}
           {data.longText && (
