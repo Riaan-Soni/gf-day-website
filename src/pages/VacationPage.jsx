@@ -62,7 +62,7 @@ const vacationData = {
   22: { title: "Day 22", image: "", caption: "", longText: "You don't have to be easy to love, because I never asked for easy. I asked for you. The tired you. The messy you. The version of you that cries at midnight and says she doesn't know what she needs. I'm not here for the polished parts. I'm here for the real ones—the ones you think are too much, too heavy, too complicated. You're not a burden to me. You're the only weight I'd choose to carry without being asked" },
   23: { title: "Day 23", image: "", caption: "", longText: "You know what's unfair? That you exist and I'm supposed to act normal about it. Like I'm just supposed to go about my day after seeing your face, hearing your laugh, watching you be effortlessly you. My brain glitches every time. I catch myself smiling at nothing, and it's always you. Always. So if I ever seem distracted around you, it's not because I'm not paying attention—it's because you're too much and I'm trying not to fall harder than I already have" },
   24: { title: "Day 24", image: "", caption: "", longText: "I was just sitting here thinking about you, and my whole body went quiet. It's like even my thoughts slow down when you cross my mind, like they're being careful not to disturb the version of you I carry in my chest. You're not even here right now, but I swear I can feel the exact weight of your head on my shoulder, the exact sound of your breath when you're half-asleep. If I could, I'd wrap that feeling around you tonight so you'd never have to wonder if you're being held" },
-  25: { title: "Day 25", image: "", caption: "", longText: "" },
+  25: { title: "Day 25", image: "", caption: "", longText: "", audio: "assets/ct.mp3" },
   26: { title: "Day 26", image: "", caption: "", longText: "" }
 };
 
@@ -131,6 +131,14 @@ export default function VacationPage() {
               <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#4a4a4a', fontStyle: 'italic', textAlign: 'center' }}>
                 "{data.longText}"
               </p>
+            </div>
+          )}
+
+          {/* Audio Player (if any) */}
+          {data.audio && (
+            <div style={{ padding: '24px', background: 'rgba(255,255,255,0.85)', borderRadius: '16px', border: '1px solid #ffccd5', boxShadow: '0 10px 25px rgba(255,107,129,0.1)', textAlign: 'center' }}>
+              <h4 style={{ marginBottom: '12px', color: '#ff4757', fontWeight: 'bold' }}>Play this memory... 🎵</h4>
+              <audio controls src={getAssetPath(data.audio)} style={{ width: '100%', outline: 'none' }} />
             </div>
           )}
 
